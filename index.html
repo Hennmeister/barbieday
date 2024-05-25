@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Barbie Day</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Barbie Day</h1>
+      <div class="carousel">
+        <button class="carousel-button left" onclick="prevCard()">
+          &#10094;
+        </button>
+        <div class="cards">
+          <div class="card">
+            <h2>Barbie & Her Sisters in a Pony Tale</h2>
+            <img src="ponytale.jpg" alt="Movie Poster 1" />
+            <p>
+              Ready your saddle! Your first mission is to prove that you can
+              ride like barbie. Agent Hen loves you.
+            </p>
+          </div>
+          <div class="card">
+            <h2>Barbie as the Princess and the Pauper</h2>
+            <img src="princesspauper.jpg" alt="Movie Poster 2" />
+            <img src="breakfast.jpg" alt="Movie Poster 2" style="height: 20%" />
+            <p>
+              You must prove your royal princessness! Prepare you finest gowns
+              and your best manners, as Agent Hen accompanies you to the Old
+              Mill for royal high tea.
+            </p>
+          </div>
+          <div class="card">
+            <h2>Barbie: A Fashion Fairytale</h2>
+            <img src="runway.jpg" alt="Movie Poster 3" />
+            <p>
+              You were born a fashionista. Don 3 stylish outfits and hit the
+              runway for a high profile photoshoot. There will be many props for
+              you to wield :)).
+            </p>
+          </div>
+          <div class="card">
+            <h2>Barbie in the 12 Dancing Princesses</h2>
+            <img src="12dance.jpg" alt="Movie Poster 4" />
+            <img src="portal.jpg" alt="Movie Poster 4" />
+            <p>
+              You must trust Agent Hen and follow him to a secret location. If
+              you can't find it, try opening a portal.
+            </p>
+          </div>
+        </div>
+        <button class="carousel-button right" onclick="nextCard()">
+          &#10095;
+        </button>
+      </div>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
